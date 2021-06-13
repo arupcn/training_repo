@@ -12,5 +12,14 @@ module.exports = {
         HTTP_409_CONFLICT: 409,
         HTTP_500_INTERNAL_SERVER_ERROR: 500
     },
+    JWT: {
+        TOKEN_LIFE: 24 * 60 * 60, // Note: in seconds!,(min*sec)
+        REFRESH_TOKEN_LIFE: 30 * 24 * 60 * 60, // Note: in seconds!, (day*hr*min*sec)
+        SECRET:
+            "QD4Zti88E8XgHwpjmWF2diDQddUlTtiMnD8d4Z4NlAEC0GUgWCxJ7IvU0VOh5BirKWi16QwtA8wv4BciqniuzJjQD5Hg5e20Xn3h1aQgMYh4s05Nbl7WQcfU6CNQHhsTFYWfpGrcfR6xCARdcdo6D6wUkoAL3z1nGDLmVIpHJjdJbZeQ5HtRj0MzOCz9rdXZilcioae2BJ8LPNQMfR95gUVIMLzpRlRbFyqdrwC8kHfhOXUEXKUWDJQXCshdlkkP",
+        REFRESH_TOKEN_SECRET:
+            "274fmI0L6x0u7dx3ymMtKyGOWSu9H2913Nj9ETrMbcyE5GGeob16m8RVGgwEw3UA0jEKufZjHOsAzksWCB19o3xK2iPEMg5iLU2xrHJtiCG0LkOTwSKBCc1oZTIP5ysnZ96LnNlZfCbM4rABoXOtMaQHPO561PXIl0tjvILj6MqpUe4mWdL1RRkCKm40MQ49LpCfKq03zFu1LEt0sgmkLGgdkEsmCUIowHFDSFoKAsS1TQCelNb8YsNr6iGJKrEg",
+   
+       },
 
 }

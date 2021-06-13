@@ -122,7 +122,6 @@ class PractiseController {
     }
     const response = await PractiseModel.fillFunction(input).catch((err) => {
       if (err) {
-        console.log(err);
           return CommonHelper.sendError(res, Constant.STATUS_CODE.HTTP_500_INTERNAL_SERVER_ERROR, { 'message': LangMsg.SOMETHING_WENT_WRONG });
       }
     });
@@ -155,7 +154,6 @@ class PractiseController {
     }
     const response = await PractiseModel.reverseFunction(input).catch((err) => {
       if (err) {
-        console.log(err);
           return CommonHelper.sendError(res, Constant.STATUS_CODE.HTTP_500_INTERNAL_SERVER_ERROR, { 'message': LangMsg.SOMETHING_WENT_WRONG });
       }
     });
@@ -188,7 +186,6 @@ class PractiseController {
     }
     const response = await PractiseModel.sortFunction(input).catch((err) => {
       if (err) {
-        console.log(err);
           return CommonHelper.sendError(res, Constant.STATUS_CODE.HTTP_500_INTERNAL_SERVER_ERROR, { 'message': LangMsg.SOMETHING_WENT_WRONG });
       }
     });
@@ -221,7 +218,6 @@ class PractiseController {
     }
     const response = await PractiseModel.splitFunction(input).catch((err) => {
       if (err) {
-        console.log(err);
           return CommonHelper.sendError(res, Constant.STATUS_CODE.HTTP_500_INTERNAL_SERVER_ERROR, { 'message': LangMsg.SOMETHING_WENT_WRONG });
       }
     });

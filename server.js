@@ -37,6 +37,11 @@ app.use(function (req, res, next) {
     next();
   });
 
+  const db = require("./models");
+  db.sequelize.sync({ force: false }).then(() => {
+    console.log();
+  });
+
   app.use('/api/v1', route);  // route url
 
   // export app

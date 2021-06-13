@@ -16,11 +16,19 @@ module.exports = {
     ALLOW_ONLY_ALPHA_NUMERIC: 'must only contain alpha-numeric characters',
     MUST_BE_A_VALID_EMAIL: 'must be a valid email',
     SOMETHING_WENT_WRONG:'Something went wrong',
+    CREATED:'User created successfully',
+    INVALID_EMAIL:'Email Not Exist, Please Sign up first',
 
     SUCCESS:"Success",
+    WRONG_PASSWORD:"Password is wrong",
 
     OTP_NOT_VERIFIED:'Otp not verified',
     OTP_VERIFIED:'Otp verified',
+    EMAIL_EXIST:'Email already exist',
+    TOKEN_EXPIRED: 'Token expired or invalid',
+
+    FAILED_TO_AUTHENTICATE: 'Failed to authenticate',
+    INVALID_TOKEN: 'Invalid Token!',
     
   },
   
